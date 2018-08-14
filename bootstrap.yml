@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bridgelabz
